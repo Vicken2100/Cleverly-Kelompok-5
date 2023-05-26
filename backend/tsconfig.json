@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {    
+    "target": "ES6",    
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./src",     
+    "allowJs": true,                                     /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
+    "outDir": "./build",    
+    "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules", "test"],
+  "include": ["src/**/*", "src/config/*.json"]
+}
